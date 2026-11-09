@@ -17,37 +17,48 @@
 
   <section id="vi" lang="vi">
     <h1>Chính sách quyền riêng tư</h1>
-    <p>Áp dụng cho ứng dụng Android Thư ký. Cập nhật lần cuối: 09/11/2026.</p>
+    <p>Áp dụng cho ứng dụng Thư ký trên Android và Windows. Cập nhật lần cuối: 09/11/2026.</p>
 
     <h3>Dữ liệu ứng dụng lưu</h3>
-    <p>Mọi dữ liệu được lưu trên điện thoại của bạn: các thẻ và ví bạn thêm cùng ứng dụng báo giao dịch cho từng cái; các khoản chi rút ra từ thông báo; sinh nhật bạn nhập; bản sao các cuộc họp, thời tiết, giá vàng, lãi suất và tin tức để hiển thị trong bản tin và widget; thông tin kết nối Azure DevOps và các cài đặt.</p>
+    <p>Dữ liệu nằm trên thiết bị của bạn: các cài đặt; bản sao thời tiết, giá vàng, lãi suất, tin tức và công việc để hiển thị bản tin, các màn hình và widget; thông tin kết nối Azure DevOps, Jira và Google Drive. Mã truy cập, phiên đăng nhập Jira, thông tin đăng nhập Google và mật khẩu đồng bộ được mã hóa bằng khóa của Android Keystore (trên Android) hoặc của Windows cho tài khoản Windows của bạn (DPAPI, trên Windows), nên không đọc được trên thiết bị khác. Trên Windows, dữ liệu nằm trong thư mục %LOCALAPPDATA%\Secretary của máy.</p>
 
     <h3>Chúng tôi không thu thập dữ liệu của bạn</h3>
-    <p>Ứng dụng không có máy chủ riêng, không yêu cầu tạo tài khoản với chúng tôi, không có quảng cáo và không dùng công cụ phân tích hay theo dõi. Ứng dụng không đăng nhập Google. Nhà phát triển không nhận, không lưu và không chia sẻ dữ liệu của bạn.</p>
-
-    <h3>Thông báo</h3>
-    <p>Với quyền truy cập thông báo, ứng dụng thấy mọi thông báo trên điện thoại nhưng chỉ giữ lại thông báo của các ứng dụng bạn gắn với một thẻ hoặc ví (kể cả ứng dụng Tin nhắn, nếu bạn chọn nó cho tin nhắn ngân hàng). Mọi thông báo khác bị bỏ qua ngay, không được lưu. Nội dung các thông báo đã giữ tự xóa sau 30 ngày.</p>
+    <p>Ứng dụng không có máy chủ riêng, không yêu cầu tạo tài khoản với chúng tôi, không có quảng cáo và không dùng công cụ phân tích hay theo dõi. Nhà phát triển không nhận, không lưu và không chia sẻ dữ liệu của bạn.</p>
 
     <h3>Lịch</h3>
-    <p>Với quyền đọc lịch, ứng dụng đọc cuộc họp hôm nay và ngày mai trong các lịch bạn chọn (ví dụ lịch công việc mà Outlook đồng bộ vào điện thoại). Ứng dụng chỉ đọc, không tạo, sửa hay xóa sự kiện nào.</p>
+    <p>Trên Android, với quyền đọc lịch, ứng dụng đọc các cuộc họp trong các lịch bạn chọn (ví dụ lịch công việc mà Outlook đồng bộ vào điện thoại): trong tuần tới và trong tháng bạn đang xem. Trên Windows, ứng dụng đọc các cuộc họp đó từ Outlook cổ điển khi Outlook đang mở. Ứng dụng chỉ đọc, không tạo, sửa hay xóa sự kiện nào.</p>
 
-    <h3>Sổ Người Thân</h3>
-    <p>Nếu bạn cài Sổ Người Thân, ứng dụng đọc các dịp sắp tới (sinh nhật, ngày giỗ) từ Sổ Người Thân, qua một quyền mà Sổ Người Thân chỉ cấp cho ứng dụng nó tin cậy.</p>
+    <h3>CalendarProMax và Sổ chi tiêu</h3>
+    <p>Nếu bạn cài CalendarProMax, ứng dụng đọc từ đó ngày âm lịch, can chi, giờ hoàng đạo, sinh nhật và lễ tết (trên Windows còn có các nhắc nhở của CalendarProMax), qua một quyền mà CalendarProMax cấp trên Android, hoặc qua các tệp CalendarProMax ghi cho biểu tượng khay của nó trên Windows. Nếu bạn cài Sổ chi tiêu trên điện thoại, ứng dụng đọc tổng chi tiêu trong tháng và các khoản thanh toán thẻ sắp tới, qua một quyền mà Sổ chi tiêu cấp. Thư ký chỉ đọc, không thay đổi gì trong hai ứng dụng đó.</p>
 
     <h3>Kết nối Internet</h3>
     <p>Ứng dụng tải thông tin công khai: thời tiết và chất lượng không khí của TP. Hồ Chí Minh (Open-Meteo), giá vàng (SJC), lãi suất tiết kiệm (webgia.tv, smartly.vn) và tin tức từ nguồn RSS của VnExpress, Tuổi Trẻ, Thanh Niên, Dân trí cùng các nguồn bạn thêm. Các yêu cầu này không gửi kèm dữ liệu cá nhân nào; ứng dụng không xin quyền vị trí.</p>
 
     <h3>Azure DevOps</h3>
-    <p>Nếu bạn thêm một tổ chức Azure DevOps, ứng dụng dùng mã truy cập cá nhân (personal access token) của bạn để đọc công việc, pull request và pipeline từ dev.azure.com. Ứng dụng chỉ đọc, không thay đổi gì trên Azure DevOps. Mã truy cập được mã hóa bằng khóa của Android Keystore. Dữ liệu công việc không nằm trong bản sao lưu của Android, và bạn có thể xóa nó trong Cài đặt.</p>
+    <p>Nếu bạn thêm một tổ chức Azure DevOps, ứng dụng dùng mã truy cập cá nhân (personal access token) của bạn để đọc công việc, pull request, pipeline, sức chứa và ngày nghỉ của nhóm từ dev.azure.com và analytics.dev.azure.com. Ứng dụng chỉ đọc, không thay đổi gì trên Azure DevOps. Dữ liệu công việc không nằm trong bản sao lưu của Android, và bạn có thể xóa nó trong Cài đặt.</p>
+
+    <h3>Jira (Windows)</h3>
+    <p>Nếu bạn kết nối Jira trên Windows, bạn đăng nhập vào máy chủ Jira của mình trong một cửa sổ Chrome dùng hồ sơ Chrome riêng của Thư ký. Ứng dụng giữ phiên đăng nhập đó (mã hóa bằng DPAPI) để đọc issue, sprint và phiên bản của các dự án và board bạn chọn. Ứng dụng chỉ đọc, không thay đổi gì trên Jira. Gỡ Jira trong ứng dụng sẽ xóa phiên đăng nhập và các issue đã lưu.</p>
+
+    <h3>Đồng bộ qua Google Drive (tùy chọn)</h3>
+    <p>Nếu bạn kết nối Google Drive, ứng dụng xin hai quyền: <em>drive.appdata</em>, chỉ cho phép truy cập thư mục ẩn dành riêng cho ứng dụng trong Google Drive của bạn, và <em>email</em>, để hiển thị bạn đã kết nối tài khoản nào. Ứng dụng không xem được các tệp khác trong Google Drive của bạn.</p>
+    <p>Bản Windows giữ ở đó một tệp (secretary-jira.bin) để điện thoại của bạn xem được Jira: các danh sách Jira mà máy tính đã đọc (issue, sprint, số liệu theo ngày) và cài đặt kết nối Jira, không có phiên đăng nhập. Tệp được mã hóa ngay trên máy tính bằng AES-256-GCM, với khóa tạo từ mật khẩu đồng bộ bạn đặt (PBKDF2-HMAC-SHA256); mật khẩu không bao giờ rời khỏi thiết bị của bạn, nên Google chỉ lưu dữ liệu đã mã hóa. Mỗi lần máy tính đọc Jira, tệp được thay bằng bản mới; điện thoại tải về và giải mã bằng cùng mật khẩu. Dữ liệu đi thẳng giữa thiết bị của bạn và Google Drive, không qua máy chủ nào khác.</p>
+
+    <h3>Dữ liệu từ Google</h3>
+    <p>Dữ liệu nhận từ Google chỉ dùng để chuyển bản sao Jira đã mã hóa giữa các thiết bị của bạn và để hiển thị tài khoản đã kết nối. Dữ liệu này không dùng cho quảng cáo, không bán và không chia sẻ cho bất kỳ ai.</p>
+    <p>Việc ứng dụng sử dụng và chuyển thông tin nhận được từ API của Google tuân thủ <a href="https://developers.google.com/terms/api-services-user-data-policy">Chính sách dữ liệu người dùng của Dịch vụ API Google</a>, bao gồm các yêu cầu về Sử dụng giới hạn (Limited Use).</p>
+
+    <h3>Ngắt kết nối và xóa dữ liệu trên Google Drive</h3>
+    <p>Bạn có thể ngắt kết nối trong màn hình Jira của ứng dụng (mục Chia sẻ Jira giữa máy tính và điện thoại → Ngắt kết nối), hoặc gỡ quyền của ứng dụng tại <a href="https://myaccount.google.com/connections">myaccount.google.com/connections</a>. Để xóa tệp đồng bộ trên Drive, mở Google Drive trên máy tính, vào Cài đặt → Quản lý ứng dụng, chọn Thư ký → Tùy chọn → Xóa dữ liệu ứng dụng ẩn.</p>
 
     <h3>Đọc to và chia sẻ báo cáo</h3>
-    <p>Đọc to dùng giọng đọc văn bản (text-to-speech) cài trên điện thoại. Báo cáo chỉ được chia sẻ khi bạn tự chọn nơi gửi; ảnh báo cáo tạm nằm trong bộ nhớ đệm và không được sao lưu.</p>
+    <p>Trên Android, đọc to dùng giọng đọc văn bản (text-to-speech) cài trên điện thoại. Báo cáo chỉ được chia sẻ khi bạn tự chọn nơi gửi; ảnh báo cáo tạm nằm trong bộ nhớ đệm và không được sao lưu. Trên Windows, báo cáo được chép vào bộ nhớ tạm (clipboard), và ảnh báo cáo được lưu thành tệp PNG trên máy.</p>
 
     <h3>Sao lưu của Android</h3>
-    <p>Tùy cài đặt trên điện thoại, tính năng sao lưu sẵn có của Android có thể sao lưu chi tiêu, sinh nhật và cài đặt vào tài khoản Google của bạn. Dữ liệu và mã truy cập Azure DevOps không bao giờ được sao lưu.</p>
+    <p>Tùy cài đặt trên điện thoại, tính năng sao lưu sẵn có của Android có thể sao lưu cài đặt và bản sao thông tin công khai vào tài khoản Google của bạn. Dữ liệu công việc, dữ liệu Jira và mọi mã truy cập không bao giờ được sao lưu.</p>
 
     <h3>Xóa dữ liệu</h3>
-    <p>Bạn có thể xóa thẻ, ví và sinh nhật trong ứng dụng, và xóa dữ liệu Azure DevOps trong Cài đặt. Gỡ ứng dụng sẽ xóa toàn bộ dữ liệu trên điện thoại.</p>
+    <p>Bạn có thể xóa các kết nối Azure DevOps và Jira cùng dữ liệu của chúng trong ứng dụng. Gỡ ứng dụng trên Android sẽ xóa toàn bộ dữ liệu trên điện thoại; trên Windows, xóa thư mục %LOCALAPPDATA%\Secretary.</p>
 
     <h3>Liên hệ</h3>
     <p><a href="mailto:workinglogix9999@gmail.com">workinglogix9999@gmail.com</a></p>
@@ -55,37 +66,48 @@
 
   <section id="en" lang="en">
     <h2>Privacy policy</h2>
-    <p>For the Secretary (Thư ký) Android app. Last updated: 9 November 2026.</p>
+    <p>For the Secretary (Thư ký) app on Android and Windows. Last updated: 9 November 2026.</p>
 
     <h3>Data the app stores</h3>
-    <p>All data stays on your phone: the cards and wallets you add and the app that notifies for each; the spending taken from those notifications; the birthdays you enter; a copy of meetings, weather, gold prices, deposit rates and news for the briefing and the widgets; your Azure DevOps connection; and your settings.</p>
+    <p>Your data stays on your devices: your settings; a copy of weather, gold prices, deposit rates, news and work data for the briefing, the screens and the widgets; and your Azure DevOps, Jira and Google Drive connections. Access tokens, the Jira session, the Google sign-in and the sync passphrase are encrypted with an Android Keystore key (on Android) or with Windows' key for your Windows account (DPAPI, on Windows), so they cannot be read on another device. On Windows the data sits in the PC's %LOCALAPPDATA%\Secretary folder.</p>
 
     <h3>We do not collect your data</h3>
-    <p>The app has no server of its own, needs no account with us, shows no ads and uses no analytics or tracking. It does not sign in to Google. The developer does not receive, store or share your data.</p>
-
-    <h3>Notifications</h3>
-    <p>With notification access, the app sees every notification on the phone but keeps only those from the apps you tie to a card or wallet (including the Messages app, if you pick it for bank SMS). All other notifications are dropped right away and never stored. The text of the kept notifications is deleted after 30 days.</p>
+    <p>The app has no server of its own, needs no account with us, shows no ads and uses no analytics or tracking. The developer does not receive, store or share your data.</p>
 
     <h3>Calendar</h3>
-    <p>With the calendar permission, the app reads today's and tomorrow's meetings from the calendars you pick (for example the work calendars Outlook syncs to the phone). It only reads; it never creates, changes or deletes an event.</p>
+    <p>On Android, with the calendar permission, the app reads the meetings in the calendars you pick (for example the work calendars Outlook syncs to the phone): for the coming week and the month you are looking at. On Windows it reads the same meetings from classic Outlook while Outlook is open. It only reads; it never creates, changes or deletes an event.</p>
 
-    <h3>People Book</h3>
-    <p>If People Book is installed, the app reads its upcoming occasions (birthdays, death anniversaries) through a permission People Book grants only to apps it trusts.</p>
+    <h3>CalendarProMax and SpendBook</h3>
+    <p>If CalendarProMax is installed, the app reads its lunar date, Can Chi, good hours, birthdays and festivals (and on Windows its reminders), through a permission CalendarProMax grants on Android, or through the files CalendarProMax writes for its tray icon on Windows. If SpendBook (Sổ chi tiêu) is installed on the phone, the app reads the month's spending and the coming card payments through a permission SpendBook grants. Secretary only reads; it changes nothing in either app.</p>
 
     <h3>Internet access</h3>
     <p>The app downloads public information: Ho Chi Minh City weather and air quality (Open-Meteo), gold prices (SJC), deposit rates (webgia.tv, smartly.vn), and news from the RSS feeds of VnExpress, Tuổi Trẻ, Thanh Niên, Dân trí and the feeds you add. These requests send no personal data; the app does not ask for your location.</p>
 
     <h3>Azure DevOps</h3>
-    <p>If you add an Azure DevOps organization, the app uses your personal access token to read work items, pull requests and pipeline runs from dev.azure.com. It only reads; it never changes anything in Azure DevOps. The token is encrypted with an Android Keystore key. Work data stays out of Android backups, and Settings can clear it.</p>
+    <p>If you add an Azure DevOps organization, the app uses your personal access token to read work items, pull requests, pipeline runs and the team's capacity and days off from dev.azure.com and analytics.dev.azure.com. It only reads; it never changes anything in Azure DevOps. Work data stays out of Android backups, and Settings can clear it.</p>
+
+    <h3>Jira (Windows)</h3>
+    <p>If you connect Jira on Windows, you sign in to your Jira server in a Chrome window that uses Secretary's own Chrome profile. The app keeps that session (encrypted with DPAPI) to read the issues, sprints and versions of the projects and boards you choose. It only reads; it never changes anything in Jira. Removing Jira in the app deletes the session and the stored issues.</p>
+
+    <h3>Sync through Google Drive (optional)</h3>
+    <p>If you connect Google Drive, the app asks for two permissions: <em>drive.appdata</em>, which only allows access to a hidden folder reserved for this app in your Google Drive, and <em>email</em>, to show which account you connected. The app cannot see any other file in your Google Drive.</p>
+    <p>The Windows app keeps one file there (secretary-jira.bin) so that your phone can show Jira: the Jira lists the PC read (issues, sprints, daily counts) and the Jira connection settings, without the session. The file is encrypted on the PC with AES-256-GCM, using a key made from the sync passphrase you choose (PBKDF2-HMAC-SHA256); the passphrase never leaves your devices, so Google only stores encrypted data. Each time the PC reads Jira the file is replaced; the phone downloads it and decrypts it with the same passphrase. Data goes directly between your devices and Google Drive, not through any other server.</p>
+
+    <h3>Data from Google</h3>
+    <p>Data received from Google is only used to move the encrypted Jira copy between your own devices and to show the connected account. It is not used for advertising, not sold and not shared with anyone.</p>
+    <p>The app's use and transfer of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
+
+    <h3>Disconnecting and deleting data in Google Drive</h3>
+    <p>You can disconnect in the app's Jira screen (Share Jira between PC and phone → Disconnect), or remove the app's access at <a href="https://myaccount.google.com/connections">myaccount.google.com/connections</a>. To delete the sync file in Drive, open Google Drive on a computer, go to Settings → Manage apps, pick Secretary → Options → Delete hidden app data.</p>
 
     <h3>Read aloud and shared reports</h3>
-    <p>Read aloud uses the text-to-speech voice installed on your phone. Reports are only shared where you choose to send them; report pictures sit briefly in the cache and are never backed up.</p>
+    <p>On Android, Read aloud uses the text-to-speech voice installed on your phone. Reports are only shared where you choose to send them; report pictures sit briefly in the cache and are never backed up. On Windows, reports are copied to the clipboard and report pictures are saved as PNG files on the PC.</p>
 
     <h3>Android backup</h3>
-    <p>Depending on your phone's settings, Android's built-in backup may back up your spending, birthdays and settings to your Google account. Azure DevOps data and tokens are never backed up.</p>
+    <p>Depending on your phone's settings, Android's built-in backup may back up your settings and the copy of public information to your Google account. Work data, Jira data and all tokens are never backed up.</p>
 
     <h3>Deleting your data</h3>
-    <p>You can delete cards, wallets and birthdays in the app, and clear Azure DevOps data in Settings. Uninstalling the app deletes all of its data from the phone.</p>
+    <p>You can remove the Azure DevOps and Jira connections and their data in the app. Uninstalling the app on Android deletes all of its data from the phone; on Windows, delete the %LOCALAPPDATA%\Secretary folder.</p>
 
     <h3>Contact</h3>
     <p><a href="mailto:workinglogix9999@gmail.com">workinglogix9999@gmail.com</a></p>
